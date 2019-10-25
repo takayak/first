@@ -13,6 +13,7 @@ nav {
 	opacity: 0.7;
 	 position: fixed;
 	 width:100%;
+	 z-index: 10;
 }
 
 nav ul {
@@ -43,7 +44,6 @@ body {
 	padding: 0px;
 	font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 	text-align: center;
-	height:2000px;
 }
 .face-pic{
 border-radius: 50% ;
@@ -72,23 +72,66 @@ border: 1px solid;
 
 }
 .html-skill{
-	background-color:#63c763;;
+	background-color:#63c763;
 	width:50%;
 	height:24px;
 }
 
 .css-skill{
-	background-color:#63c763;;
+	background-color:#63c763;
 	width:30%;
 	height:24px;
 }
 .jacascript-skill{
-	background-color:#63c763;;
+	background-color:#63c763;
 	width:20%;
 	height:24px;
 }
 .java-skill{
-	background-color:#63c763;;
+	background-color:#63c763;
 	width:50%;
 	height:24px;
 }
+.jquery-skill{
+	background-color:#63c763;
+	width:50%;
+	height:24px;
+}
+.bootstrap-skill{
+	background-color:#63c763;
+	width:50%;
+	height:24px;
+}
+.MySQL-skill{
+	background-color:#63c763;
+	width:50%;
+	height:24px;
+}
+.centos-skill{
+	background-color:#63c763;
+	width:50%;
+	height:24px;
+}
+.android-akill{
+	background-color:#63c763;
+	width:50%;
+	height:24px;
+}
+.action:hover{
+	background-color:gold;
+	height:28px;
+	transition:all ,0.6s;
+	border-radius: 30px;
+	letter-spacing: 5px;
+	padding-left:10%;
+}
+
+
+footer{
+	background-color: silver;
+	height: 80px;
+	opacity: 0.7;
+	 z-index: 10;
+	 clear:both;
+	 padding-top:20px;
+}}
